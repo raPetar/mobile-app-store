@@ -1,0 +1,32 @@
+<resources>
+    <style name="DarkTheme" parent="Theme.MaterialComponents">
+        <item name="tabSelectedTextColor">@color/customWhite</item>
+        <item name="android:textColorPrimary">@color/customWhite</item>
+        <item name="textInputStyle">@style/LoginTextInputLayoutStyleDark</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:colorControlActivated">@color/green</item>
+        <item name="android:colorControlHighlight">@color/green</item>
+    </style>
+
+    <style name="WhiteTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="textInputStyle">@style/LoginTextInputLayoutStyleWhite</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="tabSelectedTextColor">#000000</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:colorControlActivated">@color/green</item>
+        <item name="android:colorControlHighlight">@color/green</item>
+    </style>
+
+    <style name="LoginTextInputLayoutStyleDark" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/green</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="hintTextColor">@color/green</item>
+    </style>
+
+    <style name="LoginTextInputLayoutStyleWhite" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/green</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="hintTextColor">@color/green</item>
+    </style>
+</resources>

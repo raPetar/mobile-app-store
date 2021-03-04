@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobilestore">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Store"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/WhiteTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".FrequentlyAskedQuestionsActivity"
+            android:label=""/>
+        <activity
+            android:name=".orders.OrderDetailsActivity"
+            android:label="" />
+        <activity
+            android:name=".orders.OrdersActivity"
+            android:label="" />
+        <activity
+            android:name=".cart.CartActivity"
+            android:label=""
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name=".start.StartActivity"
+            android:label="Mobile Store"
+            android:theme="@style/WhiteTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".list.WishListActivity"
+            android:label=""
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name=".users.RegisterActivity"
+            android:label=""
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name=".users.UserProfile"
+            android:label=""
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name=".product.OpenProductActivity"
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name=".SearchActivity"
+            android:label=""
+            android:theme="@style/WhiteTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:label=""
+            android:theme="@style/WhiteTheme" />
+    </application>
+
+</manifest>
