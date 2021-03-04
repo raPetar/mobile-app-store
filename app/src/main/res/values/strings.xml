@@ -1,5 +1,5 @@
 <resources>
-    <string name="connectionString">https://192.168.1.11:44350/"</string>
+    <string name="connectionString">CONNECTION STRING GOES HERE</string>
 
     <string name="EditTextHintUsername">Username</string>
     <string name="EditTextHintPassword">Password</string>
@@ -9,8 +9,6 @@
     <string name="prompt_password">Password</string>
     <string name="actionBarTittle">BACK</string>
     <string name="register">Register</string>
-    <string name="enter_password">Password   *</string>
-    <string name="enter_user_name">Username   *</string>
     <string name="apply">Apply</string>
     <string name="phone_number">Phone number</string>
     <string name="E_mail_address">E-mail address</string>
