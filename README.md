@@ -2,7 +2,8 @@
  An Android app representing a functional Mobile App Store, developed in Android Studio
  
  Image loading and chaching handled by [Glide](https://github.com/bumptech/glide)
-
+ 
+Networking handled by [Volley](https://github.com/google/volley)
  ## Features
  
  * Register / Login (logout)
